@@ -40,7 +40,10 @@ Repository Root/
 │   ├── 08_i2c.h
 │   ├── 09_uart1.h
 │   ├── 10_system.h
-│
+├── images/        # Block diagrams, Proteus images, photos, etc.
+│   ├── block_diagram.png
+│   └── proteus_ima.png
+|
 └── README.md
 ```
 
