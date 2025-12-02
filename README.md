@@ -10,8 +10,7 @@ This project implements a **three-level secure access system** using:
 ✅ **Password Verification (Keypad)**
 ✅ **OTP Verification (GSM Module via UART0)**
 
-The system runs on **LPC2148/LPC214x ARM7 Microcontroller**, uses **I2C EEPROM** to store RFID and password, **LCD**, **GSM (UART0)**, **RFID Reader (UART1)**, and **4×4 Keypad**.
-On successful authentication, an **LED on P0.25** is turned ON.
+The system is built on the LPC2148 ARM7 microcontroller and integrates a 4×4 keypad, LCD, RFID reader (UART1), GSM module (UART0), and I2C EEPROM for secure storage of RFID and password data. Upon successful authentication, the LED on P0.25 is activated.
 
 ---
 
@@ -167,6 +166,9 @@ RFID -> Correct?
 
 ---
 
-# 📞 **Project Author**
+---
+## 🏅 **Author**
 
-Feel free to contact for explanation, modifications, or enhancements.
+**Raj-GitCode**  <br>
+📌 *TRI-LAYER-SECURE-ENTRY-SYSTEM*
+
