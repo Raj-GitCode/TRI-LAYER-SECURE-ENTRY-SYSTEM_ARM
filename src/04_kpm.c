@@ -14,19 +14,14 @@ u8 kpmLUT[4][4] = {
     {'b','0','=','+'}
 };
 
-// Initialize Keypad: rows output, columns input
+// rows output, columns input
 void Init_KPM(void)
 {
-    // Rows as output
+  
     IODIR1 |= ROWS_MASK;
-    // Ground all rows
     IOCLR1 = ROWS_MASK;
-
-    // Columns as input (default)
     IODIR1 &= ~COLS_MASK;
 }
-
-// Scan keypad and return ASCII of pressed key
 char KeyScan(void)
 {
     unsigned int rows[4] = {ROW0, ROW1, ROW2, ROW3};
