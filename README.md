@@ -24,6 +24,6 @@ Repository Root/
 │   ├── 09_uart1.h
 │   ├── 10_system.h
 │
-├── README.md
-└── LICENSE
+└── README.md
 ```
+
