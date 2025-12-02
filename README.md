@@ -43,7 +43,7 @@ Repository Root/
 |
 ├── images/        # Block diagrams, Proteus images, photos, etc.
 │   ├── block_diagram.png
-│   └── proteus_ima.png
+│   └── proteus_img.png
 |
 └── README.md
 ```
