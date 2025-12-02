@@ -1,5 +1,6 @@
 # TRI-LAYER-SECURE-ENTRY-SYSTEM_ARM
 
+```
 Repository Root/
 │
 ├── src/
@@ -23,5 +24,6 @@ Repository Root/
 │   ├── 09_uart1.h
 │   ├── 10_system.h
 │
-├── README.md   (optional)
-└── LICENSE     (optional)
+├── README.md
+└── LICENSE
+```
