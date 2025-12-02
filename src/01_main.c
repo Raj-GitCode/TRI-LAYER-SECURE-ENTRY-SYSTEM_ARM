@@ -1,5 +1,4 @@
 //main.c
-//main.c
 #include "system.h"     // All functions declared here
 #include <LPC214x.h>
 
